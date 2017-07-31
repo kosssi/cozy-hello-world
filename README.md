@@ -9,7 +9,7 @@ What's Cozy?
 [Cozy] is a platform that brings all your web services in the same private space.  With it, your webapps and your devices can share data easily, providing you with a new experience. You can install Cozy on your own hardware where no one's tracking you.
 
 
-What's cozy-template?
+<!-- What's cozy-template?
 ---------------------
 
 This repository is a client-side app skeleton for Cozy Cloud<sup>v3</sup>. We keep it up-to-date with our habits and best-practices. It allow you to bootstrap an app from scratch in a breeze.
@@ -61,7 +61,7 @@ $ git push -u origin master:master
 
 Congrats! Your app is now fully set. You can start coding in [`src`](src), and run it through a [cozy-stack](https://cozy.github.io/cozy-stack/).
 
-You can find more informations about how to bootstrap a Cozy app in the [Cozy's app bootstrap<sup>v3</sup>](http://talks.m4dz.net/cozy-bootstrap-v3/) talk.
+You can find more informations about how to bootstrap a Cozy app in the [Cozy's app bootstrap<sup>v3</sup>](http://talks.m4dz.net/cozy-bootstrap-v3/) talk. -->
 
 
 Community

@@ -1,0 +1,35 @@
+{
+  "name": "Hello World",
+  "slug": "cozy-hello-world",
+  "icon": "icon.svg",
+  "description": "An hello world cozy application",
+  "category": "cozy",
+  "version": "3.0.0",
+  "licence": "AGPL-3.0",
+  "source": "https://github.com/cozy/cozy-hello-world.git@build",
+  "developer": {
+    "name": "Cozy",
+    "url": "https://cozy.io"
+  },
+  "default_locale": "en",
+  "locales": {},
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
+    }
+  },
+  "permissions": {
+    "apps": {
+      "description": "Required by the cozy-bar to display the icons of the apps",
+      "type": "io.cozy.apps",
+      "verbs": ["GET"]
+    },
+    "settings": {
+      "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
+      "type": "io.cozy.settings",
+      "verbs": ["GET"]
+    }
+  }
+}
