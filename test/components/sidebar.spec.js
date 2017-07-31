@@ -5,13 +5,12 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import { I18n } from 'cozy-ui/react/I18n'
-import App from '../src/components/App'
+import Sidebar from '../../src/components/Sidebar'
 
-describe('App component only', () => {
-  it('should be mounted correctly', () => {
+describe('Sidebar component', () => {
+  it('should be rendered correctly', () => {
     const component = shallow(
-      <App />
+      <Sidebar />
     ).node
     expect(component).toMatchSnapshot()
   })

@@ -5,13 +5,12 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import { I18n } from 'cozy-ui/react/I18n'
-import App from '../src/components/App'
+import AppRoutes from '../../src/components/AppRoutes'
 
-describe('App component only', () => {
-  it('should be mounted correctly', () => {
+describe('AppRoutes component', () => {
+  it('should be rendered correctly', () => {
     const component = shallow(
-      <App />
+      <AppRoutes />
     ).node
     expect(component).toMatchSnapshot()
   })

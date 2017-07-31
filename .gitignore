@@ -17,6 +17,10 @@ build/
 +.transifexrc
 
 
+# Coverage
+coverage/
+
+
 # OS generated files
 .DS_Store
 .DS_Store?

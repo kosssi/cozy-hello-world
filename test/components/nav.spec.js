@@ -5,13 +5,13 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import { I18n } from 'cozy-ui/react/I18n'
-import App from '../src/components/App'
+import { mockT } from '../lib/I18n'
+import { Nav } from '../../src/components/Nav'
 
-describe('App component only', () => {
-  it('should be mounted correctly', () => {
+describe('Nav component', () => {
+  it('should be rendered correctly', () => {
     const component = shallow(
-      <App />
+      <Nav t={mockT} />
     ).node
     expect(component).toMatchSnapshot()
   })
