@@ -69,7 +69,7 @@ Community
 
 ### Maintainer
 
-The lead maintainer for cozy-template and tooling is [@m4dz](https://github.com/m4dz), send him a :beers: to say hello!
+The lead maintainer for cozy-template and tooling is [@CPatchane](https://github.com/cpatchane), send him a :beers: to say hello!
 
 
 ### Get in touch
