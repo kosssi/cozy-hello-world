@@ -11,7 +11,7 @@
     "commons:build": "webpack --config webpack.config.js --bail",
     "commons:watch": "webpack --config webpack.config.js --watch --display-modules --display-chunks",
     "commons:watch:standalone": "webpack-dev-server --config webpack.config.js --output-path='./build' --output-filename='[name][hash].bundle.js' --inline --hot",
-    "deploy": "git-directory-deploy --username Cozy --email contact@cozycloud.cc --directory build/ --repo=https://$GITHUB_TOKEN@github.com/cozy/cozy-hello-world.git",
+    "deploy": "git-directory-deploy --username Cozy --email contact@cozycloud.cc --directory build/ --repo=https://$GITHUB_TOKEN@github.com/CPatchane/cozy-hello-world.git",
     "tx": "tx pull --all || true",
     "precommons:build": "npm-run-all lint tx",
     "prebuild:browser": "npm run clean:browser",
@@ -40,15 +40,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cozy/cozy-hello-world.git"
+    "url": "git+https://github.com/CPatchane/cozy-hello-world.git"
   },
   "author": "Cozy Cloud <contact@cozycloud.cc> (https://cozy.io/)",
   "contributors": [],
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/cozy/cozy-hello-world/issues"
+    "url": "https://github.com/CPatchane/cozy-hello-world/issues"
   },
-  "homepage": "https://github.com/cozy/cozy-hello-world#readme",
+  "homepage": "https://github.com/CPatchane/cozy-hello-world#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
