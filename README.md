@@ -9,10 +9,10 @@ What's Cozy?
 [Cozy] is a platform that brings all your web services in the same private space.  With it, your webapps and your devices can share data easily, providing you with a new experience. You can install Cozy on your own hardware where no one's tracking you.
 
 
-<!-- What's cozy-template?
+What's cozy-hello-world?
 ---------------------
 
-This repository is a client-side app skeleton for Cozy Cloud<sup>v3</sup>. We keep it up-to-date with our habits and best-practices. It allow you to bootstrap an app from scratch in a breeze.
+This repository is a client-side Hello World app for Cozy Cloud<sup>v3</sup>. We keep it up-to-date with our habits and best-practices. It allow you to start your app quickly from a functional basis. Indeed, the branch `build` of this repository contains all build files for the Hello World app and can be installed on a Cozy platform (local or not).
 
 
 Use it
@@ -24,26 +24,20 @@ Use it
 $ git clone \
   --origin=template \
   --depth=1 \
-  https://github.com/cozy/cozy-template.git \
+  https://github.com/CPatchane/cozy-hello-world.git \
   my-app
 ```
 
-### Step 2: customize templates resources
+### Step 2: already ready?
 
-The [`my-app/.templates`](.templates) dir contains some templates you can use in your final repository. You should copy them to the root of your project (excepted the `.transifexrc` file). Be careful that those files contains some _vars_ you must replace to have the files fully functional:
+Now your app can already be builded by running `yarn watch` in order to be installed in a local Cozy for development. All you have to do is to replace all named parts to use your application name and configuration. Here are all files that you will need to update/replace:
 
-- `<APP_NAME>`: the application name
-- `<APP_SHORT_DESCRIPTION>`: a quick app description
-- `<APP_CATEGORY>`: the app category (used in the cozy-bar apps navigation)
-- `<APP_MAINTAINER>`: Github main maintainer username (don't forget `@` :))
-- `<SLUG_TX>`: transifex app slug
-- `<SLUG_GH>`: Github repository slug
-- `<SLUG_NPM>`: NPM slug
-- `<USERNAME_GH>`: Github username
-
-Don't forget to update your LICENSE too if needed.
-
-:warning: Concerning the application category, for now just `cozy` and `partners` are handled. Other categories will be handled soon, for now, you can let this field blank, it will be in the `others` category. If a category is empty, missing or not recognized, it will be `others` by default.
+* `package.json`
+* `manifest.webapp`
+* `.tx/config` (transifex configuration file if needed)
+* `vendor/assets/icon.svg` (you can use any filename, it must just match with the `manifest.webapp` `icon` field)
+* Move to the root and update the `.templates/README.md`
+* Move to the root and update the `.templates/CONTRIBUTING.md`
 
 ### Step 3: add your own repository
 
@@ -61,15 +55,13 @@ $ git push -u origin master:master
 
 Congrats! Your app is now fully set. You can start coding in [`src`](src), and run it through a [cozy-stack](https://cozy.github.io/cozy-stack/).
 
-You can find more informations about how to bootstrap a Cozy app in the [Cozy's app bootstrap<sup>v3</sup>](http://talks.m4dz.net/cozy-bootstrap-v3/) talk. -->
-
 
 Community
 ---------
 
 ### Maintainer
 
-The lead maintainer for cozy-template and tooling is [@CPatchane](https://github.com/cpatchane), send him a :beers: to say hello!
+The lead maintainer for cozy-hello-world and tooling is [@CPatchane](https://github.com/cpatchane), send him a :beers: to say hello!
 
 
 ### Get in touch
@@ -85,7 +77,7 @@ You can reach the Cozy Community by:
 License
 -------
 
-cozy-template is developed by Cozy Cloud and distributed under the [AGPL v3 license][agpl-3.0].
+cozy-hello-world is distributed under the [AGPL v3 license][agpl-3.0].
 
 
 [cozy]: https://cozy.io "Cozy Cloud"
