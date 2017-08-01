@@ -1,6 +1,10 @@
 Cozy Template
 =============
 
+[![Travis build status shield](https://img.shields.io/travis/cozy/<SLUG_GH>/master.svg)](https://travis-ci.org/cozy/<SLUG_GH>)
+[![NPM Licence shield](https://img.shields.io/npm/l/<SLUG_NPM>.svg)](https://github.com/cozy/<SLUG_GH>/blob/master/LICENSE)
+[![Greenkeeper badge](https://badges.greenkeeper.io/CPatchane/cozy-hello-world.svg)](https://greenkeeper.io/)
+
 What's Cozy?
 ------------
 
