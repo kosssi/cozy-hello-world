@@ -1,6 +1,8 @@
 Cozy Template
 =============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CPatchane/cozy-hello-world.svg)](https://greenkeeper.io/)
+
 What's Cozy?
 ------------
 
