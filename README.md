@@ -1,9 +1,9 @@
-Cozy Template
+Cozy Hello World
 =============
 
 [![Travis build status shield](https://img.shields.io/travis/CPatchane/cozy-hello-world/master.svg)](https://travis-ci.org/CPatchane/cozy-hello-world)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/CPatchane/ccozy-hello-world/blob/master/LICENSE)
 [![Greenkeeper badge](https://badges.greenkeeper.io/CPatchane/cozy-hello-world.svg)](https://greenkeeper.io/)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/CPatchane/ccozy-hello-world/blob/master/LICENSE)
 
 What's Cozy?
 ------------
