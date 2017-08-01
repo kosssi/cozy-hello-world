@@ -1,17 +1,17 @@
 .hello-cat-hello1, .hello-cat-hello2, .hello-cat-hello3 {
-	background: url('../assets/icons/icon-nav.svg') no-repeat 1.5em center/1em;
+	background: var(--icon-nav) no-repeat 1.5em center/1em;
 }
 
 .hello-cat-hello1.active, .hello-cat-hello2.active, .hello-cat-hello3.active {
-	background-image: url('../assets/icons/icon-nav-active.svg');
+	background-image: var(--icon-nav-active);
 }
 
 @media (max-width: 63.9375rem) {
   .hello-cat-hello1, .hello-cat-hello2, .hello-cat-hello3 {
-  	background: no-repeat center -.75em/16px url('../assets/icons/icon-nav-mobile.svg');
+  	background: no-repeat center top/16px var(--icon-nav-mobile);
   }
 
   .hello-cat-hello1.active, .hello-cat-hello2.active, .hello-cat-hello3.active {
-    background-image: url('../assets/icons/icon-nav-mobile-active.svg');
+    background-image: var(--icon-nav-mobile-active);
   }
 }
